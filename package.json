@@ -5,6 +5,7 @@
 	},
 	"main": "server.js",
 	"scripts": {
+		"build": "cp src/* dist/",
 		"start": "node server.js"
 	},
 	"repository": {
