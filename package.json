@@ -1,7 +1,9 @@
 {
+	"version": "1.0.0",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0", 
+		"moment": "^2.10.2"
 	},
 	"main": "server.js",
 	"scripts": {
@@ -12,5 +14,8 @@
 		"type": "git",
 		"url": "https://idontknow/todo.git"
 	}, 
-	"author": "Denise-Suter"
+	"author": "Denise-Suter",
+	"description": "Example project for backend work",
+	"keywords": ["example", "project"],
+	"license": "MIT"
 }
